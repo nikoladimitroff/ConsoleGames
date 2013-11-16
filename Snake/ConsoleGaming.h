@@ -10,25 +10,20 @@ public:
 	COORD Coordinates;
 	char Symbol;
 
-	GameObject::GameObject(COORD coordinates, char symbol)
-	{
-		this->Coordinates = coordinates;
-		this->Symbol = symbol;
-	}
+	GameObject::GameObject(COORD coordinates, char symbol) :
+		Coordinates(coordinates), Symbol(symbol)
+	{	}
 
-	GameObject::GameObject(int x, int y, char symbol)
+	GameObject::GameObject(int x, int y, char symbol) :
+		Symbol(symbol)
 	{
 		COORD coordinates = { x, y };
 		this->Coordinates = coordinates;
-		this->Symbol = symbol;
 	}
 
-	GameObject::GameObject(const GameObject& gameObject)
-	{
-		COORD coordinates = { gameObject.Coordinates.X, gameObject.Coordinates.Y };
-		this->Coordinates = coordinates;
-		this->Symbol = gameObject.Symbol;
-	}
+	GameObject::GameObject(const GameObject& gameObject) :
+		Coordinates(gameObject.Coordinates), Symbol(gameObject.Symbol)
+	{	}
 
 	void GameObject::UpdateCoordinates(const COORD& value)
 	{

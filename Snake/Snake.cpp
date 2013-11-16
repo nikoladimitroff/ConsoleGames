@@ -13,13 +13,16 @@ HANDLE consoleHandle;
 typedef vector<GameObject>::iterator randomAccess_iterator;
 typedef vector<GameObject>::const_iterator const_iterator;
 
+// Window constants
 const int WindowWidth = 70;
 const int WindowHeight = 30;
+// Snake
 const int SnakeSpeed = 1;
 const int SnakeStartingLength = 5;
 const char SnakeSymbol = '*',
+	//Fruit
 		FruitSymbol = '+';
-
+// Game variables
 unsigned long sleepDuration = 200;
 vector<GameObject> snake;
 vector<GameObject> fruit;
@@ -65,7 +68,7 @@ void Update()
 	snake.begin()->Coordinates.Y += direction.Y;
 
 	GameObject head = *snake.begin();
-	for (const_iterator i = fruit.begin(); i != fruit.end(); ++i)
+	for (randomAccess_iterator i = fruit.begin(); i != fruit.end(); ++i)
 	{
 		if (head.Coordinates.X == i->Coordinates.X && head.Coordinates.Y == i->Coordinates.Y)
 		{
