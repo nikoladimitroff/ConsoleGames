@@ -41,7 +41,7 @@ crossing itself with no penalty and whatever else you can come up with.  [BONUS]
 *	Implement collision detection.
 *	Clear the floor whenever the whole row has been filled up with figures.
 *	Show a ghost-like figure at the place where the currently falling figure will hit the floor
-*	Implement a two-player tetris like (this one)[http://www.tetrisfriends.com/games/Battle2P/game.php] [BONUS]
+*	Implement a two-player tetris like this one http://www.tetrisfriends.com/games/Battle2P/game.php [BONUS]
 *	Implement a colourized tetris. In a colourized tetris a row is cleared only if either
 	**	The whole row is the same colour
 	**	There is a path of the same colour that connects the pieces of the row
