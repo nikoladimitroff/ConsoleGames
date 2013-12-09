@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pong", "Pong\Pong.vcxproj",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Asteroids", "Asteroids\Asteroids.vcxproj", "{350BF1B3-9C6C-4671-A2AE-F60CC33DD985}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Platform+Ball=DeadBlocks", "Platform+Ball=DeadBlocks\Platform+Ball=DeadBlocks.vcxproj", "{569C5469-83BD-4817-AB38-39CE5DD4438A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -39,6 +41,10 @@ Global
 		{350BF1B3-9C6C-4671-A2AE-F60CC33DD985}.Debug|Win32.Build.0 = Debug|Win32
 		{350BF1B3-9C6C-4671-A2AE-F60CC33DD985}.Release|Win32.ActiveCfg = Release|Win32
 		{350BF1B3-9C6C-4671-A2AE-F60CC33DD985}.Release|Win32.Build.0 = Release|Win32
+		{569C5469-83BD-4817-AB38-39CE5DD4438A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{569C5469-83BD-4817-AB38-39CE5DD4438A}.Debug|Win32.Build.0 = Debug|Win32
+		{569C5469-83BD-4817-AB38-39CE5DD4438A}.Release|Win32.ActiveCfg = Release|Win32
+		{569C5469-83BD-4817-AB38-39CE5DD4438A}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
