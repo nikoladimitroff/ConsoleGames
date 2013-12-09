@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{B5E21D8F-E642-4895-AC82-D3C03C85182B}</ProjectGuid>
+    <ProjectGuid>{0044E236-06EB-4A8B-8DF8-CE2327E1B158}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Tetris</RootNamespace>
+    <RootNamespace>Pong</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -77,7 +77,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ConsoleGaming.cpp" />
-    <ClCompile Include="Tetris.cpp" />
+    <ClCompile Include="Pong.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ConsoleGaming.h" />

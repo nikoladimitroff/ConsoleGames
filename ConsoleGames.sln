@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FallingRocks", "FallingRock
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tetris", "Tetris\Tetris.vcxproj", "{B5E21D8F-E642-4895-AC82-D3C03C85182B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pong", "Pong\Pong.vcxproj", "{0044E236-06EB-4A8B-8DF8-CE2327E1B158}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -17,14 +19,20 @@ Global
 		{328EAB67-900E-4240-B726-55B60869E13E}.Debug|Win32.Build.0 = Debug|Win32
 		{328EAB67-900E-4240-B726-55B60869E13E}.Release|Win32.ActiveCfg = Release|Win32
 		{328EAB67-900E-4240-B726-55B60869E13E}.Release|Win32.Build.0 = Release|Win32
+		{328EAB67-900E-4240-B726-55B60869E13E}.Release|Win32.Deploy.0 = Release|Win32
 		{31865598-2A6B-45D1-996F-834CC70AE25B}.Debug|Win32.ActiveCfg = Debug|Win32
 		{31865598-2A6B-45D1-996F-834CC70AE25B}.Debug|Win32.Build.0 = Debug|Win32
 		{31865598-2A6B-45D1-996F-834CC70AE25B}.Release|Win32.ActiveCfg = Release|Win32
 		{31865598-2A6B-45D1-996F-834CC70AE25B}.Release|Win32.Build.0 = Release|Win32
 		{B5E21D8F-E642-4895-AC82-D3C03C85182B}.Debug|Win32.ActiveCfg = Debug|Win32
 		{B5E21D8F-E642-4895-AC82-D3C03C85182B}.Debug|Win32.Build.0 = Debug|Win32
+		{B5E21D8F-E642-4895-AC82-D3C03C85182B}.Debug|Win32.Deploy.0 = Debug|Win32
 		{B5E21D8F-E642-4895-AC82-D3C03C85182B}.Release|Win32.ActiveCfg = Release|Win32
 		{B5E21D8F-E642-4895-AC82-D3C03C85182B}.Release|Win32.Build.0 = Release|Win32
+		{0044E236-06EB-4A8B-8DF8-CE2327E1B158}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0044E236-06EB-4A8B-8DF8-CE2327E1B158}.Debug|Win32.Build.0 = Debug|Win32
+		{0044E236-06EB-4A8B-8DF8-CE2327E1B158}.Release|Win32.ActiveCfg = Release|Win32
+		{0044E236-06EB-4A8B-8DF8-CE2327E1B158}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -107,9 +107,7 @@ void Draw()
 int main()
 {
 	consoleHandle = GetStdHandle( STD_OUTPUT_HANDLE );
-	CONSOLE_SCREEN_BUFFER_INFO consoleInfo; 
-	GetConsoleScreenBufferInfo(consoleHandle, &consoleInfo);
-	// Randomize stuff
+	// Prepare rand
 	srand(time(NULL));
 	
 	// Create the floor

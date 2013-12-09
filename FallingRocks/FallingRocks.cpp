@@ -106,8 +106,6 @@ void Draw()
 int main()
 {
 	consoleHandle = GetStdHandle( STD_OUTPUT_HANDLE );
-	CONSOLE_SCREEN_BUFFER_INFO consoleInfo; 
-	GetConsoleScreenBufferInfo(consoleHandle, &consoleInfo);
 
 	srand(time(NULL));
 

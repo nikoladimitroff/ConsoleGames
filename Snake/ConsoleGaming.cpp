@@ -1,6 +1,6 @@
-#pragma once
-
 #include "ConsoleGaming.h"
+
+ConsoleColor GameObject::BackgroundColor = 0x00;
 
 void ClearScreen(HANDLE consoleHandle)
 {
